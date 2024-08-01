@@ -1,0 +1,5 @@
+data/** filter=lfs diff=lfs merge=lfs -text
+data/credit_card_fraud_detection/fraudTrain.csv filter=lfs diff=lfs merge=lfs -text
+data/credit_card_fraud_detection/fraudTest.csv filter=lfs diff=lfs merge=lfs -text
+data/credit_card_fraud_detection/*.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
